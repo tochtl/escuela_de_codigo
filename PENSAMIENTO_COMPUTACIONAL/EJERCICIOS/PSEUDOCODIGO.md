@@ -104,8 +104,41 @@ Inicio
 
 Inicio
 
+	Escribir "Escribe una letra: "
+	
+	Leer letra1
+	
+	Segun letra1 Hacer
+	
+		"A":
+		
+			Escribir "vocal"
+			
+		"E":
+		
+			Escribir "vocal"
+			
+		"I":
+		
+			Escribir "vocal"
+			
+		"O":
+		
+			Escribir "vocal"
+			
+		"U":
+		
+			Escribir "vocal"
+			
+		De Otro Modo:
+		
+			Escribir "consonante"
 
+	Fin Segun
+	
+Fin
 
+![image](https://user-images.githubusercontent.com/102439883/161350644-1c8ee697-77d3-495b-9966-667a115f76b8.png)
 
 6. Programa que pida 3 números y los muestre en pantalla de menor a mayor.
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
