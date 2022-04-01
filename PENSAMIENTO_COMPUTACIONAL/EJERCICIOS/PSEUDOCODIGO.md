@@ -253,3 +253,29 @@ Fin
 ![image](https://user-images.githubusercontent.com/102439883/161353354-36f185be-34ae-4670-b90d-27482af09245.png)
 
 8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
+
+Inicio
+	
+	Mientras contador>=10 Hacer
+		
+	Escribir "Escriba un numero"
+	
+		Leer num1
+		
+		Si resultado>0 Entonces
+		
+			resultado<-resultado + num1
+			
+			contador<-contador+1
+			
+		SiNo
+		
+			resultado<-resultado + num1
+			
+			contador<-contador+1
+			
+		Fin Si
+		
+	Fin Mientras
+
+Fin
