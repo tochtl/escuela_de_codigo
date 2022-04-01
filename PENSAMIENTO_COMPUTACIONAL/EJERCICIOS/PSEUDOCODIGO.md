@@ -141,5 +141,94 @@ Fin
 ![image](https://user-images.githubusercontent.com/102439883/161350644-1c8ee697-77d3-495b-9966-667a115f76b8.png)
 
 6. Programa que pida 3 números y los muestre en pantalla de menor a mayor.
+
+Inicio
+
+	Escribir "Escribir tres numero: "
+	
+	Leer num1, num2, num3
+	
+	Si (a>b) Y (a>c) Entonces
+	
+		may<-num1
+		
+		Si num2>num3 Entonces
+		
+			inter<-num2
+			
+			men<-num3
+			
+		SiNo
+		
+			inter<-num3
+			
+			men<-num2
+			
+		Fin Si
+		
+	SiNo
+	
+		men<-num1		
+		
+	Fin Si
+	
+	Si (num2>num1) Y (num2>num3) Entonces
+	
+		may<-num2
+		
+		Si num1>num3 Entonces
+		
+			inter<-num1
+			
+			men<-num3
+			
+		SiNo
+		
+			inter<-num3
+			
+			men<-num1
+			
+		Fin Si
+		
+	SiNo
+	
+		men<-num2
+		
+	Fin Si
+	
+	Si (num3>num1) Y (num3>num2) Entonces
+	
+		may<-num3
+		
+		Si num1>num2 Entonces
+		
+			inter<-num1
+			
+			men<-num2
+			
+		SiNo
+		
+			inter<-num2
+			
+			men<-num1
+			
+		Fin Si
+		
+	SiNo
+	
+		men<-num3
+		
+	Fin Si
+	
+	Escribir "Mayor "  may 
+	
+	Escribir "Intermedio " inter
+	
+	Escribir "Menor " men
+Fin
+
+![image](https://user-images.githubusercontent.com/102439883/161352657-35eea5b4-7dcb-4b6b-9d48-a1f759bb4bdc.png)
+
+
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
 8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
