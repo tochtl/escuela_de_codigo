@@ -231,4 +231,25 @@ Fin
 
 
 7. Realizar un algoritmo y diagrama de flujo para un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada.
+
+Inicio
+
+	Escribir "Escribe nombre"
+	
+	Leer nombre
+	
+	Escribir "Escribe numero"
+	
+	Leer numer
+	
+	Para numer<-1 Hasta numer Con Paso 1 Hacer
+	
+		Escribir nombre
+		
+	Fin Para
+
+Fin
+
+![image](https://user-images.githubusercontent.com/102439883/161353354-36f185be-34ae-4670-b90d-27482af09245.png)
+
 8. Realiza un algoritmo y diagrama de flujo de un programa que solicita números al usuario y haga la suma de todos ellos. El algoritmo debe solicitar números siempre y cuando el número ingresado sea positivo, si el usuario ingresa un número no positivo el algoritmo debe terminar e imprimir la suma de los números positivos.
