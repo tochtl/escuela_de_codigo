@@ -256,26 +256,28 @@ Fin
 
 Inicio
 	
-	Mientras contador>=10 Hacer
-		
 	Escribir "Escriba un numero"
 	
+	Leer num1
+	
+	Mientras num1>0 Hacer
+	
+		Escribir "Escriba un numero"
+		
 		Leer num1
 		
 		Si resultado>0 Entonces
 		
 			resultado<-resultado + num1
 			
-			contador<-contador+1
-			
 		SiNo
 		
 			resultado<-resultado + num1
 			
-			contador<-contador+1
-			
 		Fin Si
 		
 	Fin Mientras
+	
+	Escribir "La suma es: " resultado
 
 Fin
