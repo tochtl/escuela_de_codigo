@@ -256,28 +256,25 @@ Fin
 
 Inicio
 	
-	Escribir "Escriba un numero"
+	Escribir "Escribe un mumero"
 	
 	Leer num1
 	
 	Mientras num1>0 Hacer
 	
-		Escribir "Escriba un numero"
+		resultado<-resultado+num1
+		
+		contador<-contador+1
+		
+		Escribir "Escribe un mumero"
 		
 		Leer num1
 		
-		Si resultado>0 Entonces
-		
-			resultado<-resultado + num1
-			
-		SiNo
-		
-			resultado<-resultado + num1
-			
-		Fin Si
-		
 	Fin Mientras
 	
-	Escribir "La suma es: " resultado
+	Escribir "La suma es " resultado
 
 Fin
+
+![image](https://user-images.githubusercontent.com/102439883/161398423-3bb8c815-6d5b-4198-bfc1-96654f165b0c.png)
+
