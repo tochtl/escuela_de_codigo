@@ -16,4 +16,5 @@ Realiza un algoritmo y diagrama de flujo de un programa que solicita números al
 4. Mostrar("La suma es" resultado)
 5. Fin
 
-![image](https://user-images.githubusercontent.com/102439883/161398350-ebbfb605-c64a-4c22-bd86-e9af0129be05.png)
+![image](https://user-images.githubusercontent.com/102439883/161398586-968acdb1-937e-4309-9924-494a3cf535a1.png)
+
