@@ -12,6 +12,7 @@ Realiza un algoritmo y diagrama de flujo de un programa que solicita números al
 
 1. Inicio
 2. Declarar(resultado, contador, num1)
-3. MIENTRAS(contador>=10) Mostrar("Esbriba numero: " num1) Asignar(num1) SI resultado>0 ENTONCES mostrar(resultado = resultado + num1) contador+1 SINO mostrar(resultado = resultado + num1) contador+1FINSI FINMIENTRAS
-4. Fin
+3. MIENTRAS(contador>=10) Mostrar(resultado=resultado+num1)("Esbriba numero: " num1) Asignar(num1) contador=contador+1 FINMIENTRAS
+4. Mostrar("La suma es" resultado)
+5. Fin
 
