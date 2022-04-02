@@ -148,7 +148,7 @@ Inicio
 	
 	Leer num1, num2, num3
 	
-	Si (a>b) Y (a>c) Entonces
+	Si (num1>num2) Y (num1>num3) Entonces
 	
 		may<-num1
 		
