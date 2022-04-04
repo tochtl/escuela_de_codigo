@@ -2,7 +2,7 @@ Actividad 1. Programa, usando algoritmo de estructura selectiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para mostrar el mensaje APROBADO si la nota final de un estudiante es mayor o igual que 4,0,
 y el mensaje REPROBADO en caso contrario, considere además el siguiente requisito adicional que la nota debe cumplir: debe estar dentro del rango 1,0 a 7,0.
 
-Algoritmo sin_titulo
+Algoritmo Inicio
 
 	cal<-0
 	Escribir "Escribir calificacion"
@@ -19,3 +19,18 @@ FinAlgoritmo
 
 Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
+
+Algoritmo Inicio
+
+	Escribir "Escribe total de alumnos"
+	Leer alumnos
+	contador<-1
+	Mientras contador<=alumnos Hacer
+		Escribir "Ingresa edad de alumno"
+		Leer edad
+		suma = suma + edad
+		contador = contador+1
+	Fin Mientras
+	Escribir "El promedio de edad de los alumnos es " suma/alumnos
+	
+FinAlgoritmo
